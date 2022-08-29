@@ -1,0 +1,12 @@
+a {
+    z-index: 1;
+    display: block;
+}
+
+a:hover {
+    background-color: lightgrey;
+}
+
+div:not(#calendar):hover {
+    background-color: grey;
+}
